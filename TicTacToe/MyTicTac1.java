@@ -18,7 +18,7 @@ public class MyTicTac1 extends JFrame {
 	
 
 public MyTicTac1(){
-super("this is Mukesh's tictactoe");
+super("this is Modgil tictactoe");
 JPanel pan=new JPanel();
 pan.setLayout(new BorderLayout());
 JPanel p1=new JPanel();
@@ -93,7 +93,7 @@ for(int i=1;i<10;i++){
 		public void actionPerformed(ActionEvent evt){
 		/*String str;
 		Font f=new Font("\tMUKESH KUMAR SAH \n Btech 10406033 \nPlay and enjoy it !",Font.BOLD,10);
-		str="\tMUKESH KUMAR SAH \n Btech 10406033 \nPlay and enjoy it !";
+		str="Play and enjoy it !";
 		setFont(f);
 		JOptionPane.showMessageDialog( MyTicTac.this, str,	"Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE );*/
 		setVisible(false);
@@ -375,7 +375,7 @@ if((Status[3]!="") && (Status[3]==Status[5] && Status[5]==Status[7]))
                 newgame();
             else
                // System.exit( 0 );
-			   exitt();
+			   exit();
 				
         }
     }
